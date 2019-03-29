@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">ContactList</string>
+
+    <!-- Leyendas -->
+    <string name="confirmarDatos">Confirmar Datos</string>
+    <string name="tvNombreCompleto">Nombre Completo: </string>
+    <string name="tvFechaNacimiento">Fecha de Nacimiento: </string>
+    <string name="tvTelefono">Telefono: </string>
+    <string name="tvEmail">Email: </string>
+    <string name="tvDescripcion">Descripción: </string>
+
+    <!-- Hint -->
+    <string name="hintNombreCompleto">Nombre Completo</string>
+    <string name="hintFechaNacimiento">dd/mm/aaaa</string>
+    <string name="hintTelefono">Telefono</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintDescripcionContacto">Descripcion del Contacto</string>
+
+    <!-- Botones -->
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="btnEditarDatos">Editar Datos</string>
+
+    <!-- Parametros -->
+    <string name="pNombre">Nombre</string>
+    <string name="pFecha">Fecha</string>
+    <string name="pTelefono">Telefono</string>
+    <string name="pEmail">Email</string>
+    <string name="pDescripcion">Descripcion</string>
 </resources>
