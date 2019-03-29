@@ -16,11 +16,11 @@ import java.util.Calendar;
 public class VistaContacto extends AppCompatActivity implements View.OnClickListener {
 
     Button btnSiguiente;
-    EditText nombre;
-    EditText fecha;
-    EditText telefono;
-    EditText email;
-    EditText descripcion;
+    TextInputEditText nombre;
+    TextInputEditText fecha;
+    TextInputEditText telefono;
+    TextInputEditText email;
+    TextInputEditText descripcion;
 
     private static final String CERO = "0";
     private static final String BARRA = "/";
@@ -36,11 +36,11 @@ public class VistaContacto extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vista_contacto);
 
-        fecha = (EditText) findViewById(R.id.etFecha);
-        nombre = (EditText) findViewById(R.id.etNombreCompleto);
-        telefono = (EditText) findViewById(R.id.edTelefono);
-        email = (EditText) findViewById(R.id.edEmail);
-        descripcion = (EditText) findViewById(R.id.etDescripcion);
+        fecha = (TextInputEditText) findViewById(R.id.etFecha);
+        nombre = (TextInputEditText) findViewById(R.id.etNombreCompleto);
+        telefono = (TextInputEditText) findViewById(R.id.edTelefono);
+        email = (TextInputEditText) findViewById(R.id.edEmail);
+        descripcion = (TextInputEditText) findViewById(R.id.etDescripcion);
 
         fecha.setOnClickListener(this);
 
