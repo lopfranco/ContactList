@@ -14,7 +14,7 @@
         android:padding="@dimen/pad_general"
         android:orientation="vertical">
 
-        <EditText
+        <android.support.design.widget.TextInputEditText
             android:id="@+id/etNombreCompleto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
             android:inputType="textPersonName"
             android:maxLines="1"/>
 
-        <EditText
+        <android.support.design.widget.TextInputEditText
             android:id="@+id/etFecha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
